@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:600,800&display=swap');
+ 
+ /* custom */
+body {font:16px "Roboto"; background:#f4f4f4; color:#4e5b6a;}
+img {width:100%; display:inline-block;}
+a {color:#4e5b6a}
+a:hover, a:focus {text-decoration:none;}
+p a {text-decoration:none;}
+p a.button, a.button {background:#fff; padding:8px 20px; text-transform:uppercase; font-size:0.75rem; font-weight:700; 
+    border:1px solid #63D1F0; display:inline-block; border-radius:25px;}
+p a.button:hover, a.button:hover {background:#CAEFF9; border:1px solid #CAEFF9;}
+p a.button i.fas, a.button i.fas {margin-left:5px;}
+li.current {font-weight:700;}
+
+input[type="password"], select {padding:15px 20px; color:#333; border:1px solid #CAEFF9; width:auto; height:auto; background-color:#f4f4f4;}
+input[type="file"] {border:0;}
+input[type="submit"] {border:1px solid #63D1F0; background:#fff; text-transform:uppercase; color:#333; font-size:0.75rem; font-weight:700; border-radius:25px; 
+    padding:12px 20px; width:auto;}
+input[type="submit"]:hover {background:#CAEFF9; border:1px solid #CAEFF9; color:#333; transition:none;}  
+
+.note {padding:5px 20px; font-size:0.875rem; font-weight:700; display:inline-block; border:0; margin:20px 0;}
+.warning {background:#c9485b; color:#fff;}
+.ok {background:#1B5A51; color:#fff;}
+.page404 {text-align:center; margin:50px 0;}
+.page404 a {text-decoration:underline;}
+
+.shareonsocmed {text-align:right; margin-bottom:20px;}
+.shareonsocmed div {font-weight:700; font-size:0.875rem;}
+.shareonsocmed ul {margin:5px 0;}
+.shareonsocmed li {display:inline;}
+.shareonsocmed li a {display:inline-block; background:#CAEFF9; padding:2px 10px 0 10px; width:40px; height:auto; text-align:center; border-radius:3px; color:#000; font-weight:700; font-size:1.125rem;}
+.shareonsocmed li a:hover {color:#FFF; background:#63D1F0;}
+
+.section-topbar .topbar {background:#262042; padding:5px 25px; border-radius:6px; margin:20px 0;}
+
+.section-footer-2 {font-size:0.75rem; margin-bottom:40px; line-height:1.5}
+
+.logo-column img {height:40px; width:auto; position:relative; top:50%; transform:translateY(-50%);}
+.menu-column ul {padding-left:0;}
+.menu-column ul li {display:inline; padding-left:30px; text-transform:uppercase;}
+.menu-column ul li a {color:#ddd; font-size:0.875rem; font-weight:700}
+.menu-column ul li a i.far {font-size:1rem;}
+.menu-column ul li a:hover {color:#FFF;}
+.menu-column i.far {margin-left:5px;}
+
+.card {background:#fff; padding:30px; border-radius:6px; line-height:1.5; /*height:100%;*/
+  box-shadow:5px 5px 5px 5px #545c56; }
+.card-media {margin:-30px -30px 30px -30px;}
+.card-media img {border-top-left-radius:6px; border-top-right-radius:6px; width:100%; height:auto;}
+.card h3 {font:800 0.75rem "Roboto Slab"; color:#6E6A81; margin-bottom:20px; text-transform:uppercase;}
+.card h3:after {content:""; display:block; width:20px; padding-top:10px; border-bottom:4px solid #FA9E1C;}
+.card h3 .fa-bookmark {font-size:0.75rem; color:#FA9E1C; margin-right:2px;}
+.card h4 {font-size:1rem; line-height:1.4; margin-bottom:20px;}
+.card h4.title {font-size:1.25rem; font-weight:900; color:#333;}
+.card ul {padding-left:20px;}
+.card p {font-size:0.875rem; margin:0;}
+.card p.date {font-size:0.75rem; text-transform:uppercase;}
+.card a.button {margin-top:20px;}
+
+.content .card-sidebar div.trow {display:table-row;}
+.content .card-sidebar div.tcel {display:table-cell;}
+.content .card-sidebar div.tcel:nth-child(1) {white-space:nowrap; padding-right:10px;}
+.content .card-sidebar {font-size:0.875rem;} 
+.content .card-sidebar ul {padding-left:0; list-style:none;} 
+.content .card-sidebar li {border-bottom:1px solid #DDD; padding:6px 0; margin-bottom:4px;}
+.content .card-sidebar li:last-child {border-bottom:0;}
+.content .card-sidebar li a {margin-left:5px;}
+.content .card-sidebar ul.MarkupPagerNav {}
+.content .card-sidebar ul.MarkupPagerNav li {display:inline; border-bottom:none;}
+.content .card-sidebar ul.MarkupPagerNav li a {display:inline-block; padding:10px; background:#fff; border:1px solid #CAEFF9; 
+  width:40px; height:40px; border-radius:50%; text-align:center;}
+.content .card-sidebar ul.MarkupPagerNav li.MarkupPagerNavOn a {background:#CAEFF9;}
+.content .card-content p {font-size:1rem; margin-bottom:10px;}
+
+.card-temaSepekan h4 {font-size:1rem;}
+.card-temaSepekan p {font-size:1rem;}
+.card-temaSepekan p.date {font-size:0.75rem;}
+.card-temaSepekan-item h1 {margin-bottom:30px;}
+/*.card-temaSepekan-item img {width:60%; height:auto; float:right; margin:45px 0 20px 20px; position:relative;} */
+
+.card-events h4 {font-size:0.875rem;}
+.card-events h5 {font-weight:400; font-size:0.8125rem; border-bottom:1px solid #f4f4f4; margin-bottom:5px;}
+.card-events img {border-radius:6px; margin-bottom:5px; filter:saturate(65%) contrast(85%);}
+.card-events img:hover {filter:saturate(100%) contrast(100%);}
+.card-event h2 {text-align:center; margin-bottom:20px;}
+.card-event p a.button {display:block; text-align:center; background:#333; color:#fff; padding:10px 0; font-size:1rem;}
+.card-event p a.button:hover {background:#666;}
+.card-event img {margin-top:20px;}
+/* .card-event img {width:232.5px; height:197.63px;} */
+
+.card-content h1 {margin-bottom:20px;}
+
+.card-warta {font-size:0.875rem;}
+.card-warta ul {padding-left:1px; list-style:none;}
+.card-warta li {margin-bottom:10px;}
+.card-warta li div {margin-top:-20px;}
+.card-warta-item table {font-size:0.875rem;}
+.card-warta-item table th {background:#f4f4f4; padding:5px 10px;}
+.card-warta-item table td {border-bottom:1px solid #f4f4f4; padding:0 10px;}
+.card-warta-item p a.button {display:block; text-align:center; padding:10px 0; font-size:1rem; margin:30px 0;}
+.card-warta-item p a.button:hover {background:#CAEFF9; border:1px solid #CAEFF9;}
+.card-warta-item p.bible-verse {font-style:italic; font-size:0.875rem;}
+.card-warta-item > ol > li {margin-bottom:10px;}
+.card-warta-item .warta-lokasi span {font-size:0.875rem;}
+
+.card-location {font-size:0.875rem;}
+.card-location ul {padding-left:0; list-style:none; margin-top:-15px;}
+.card-location ul li {padding:2px 0 2px 5px;}
+.card-location ul li:after {content:""; display:block; width:30px; padding-top:2px; border-bottom:1px solid #ddd; margin-left:-5px;}
+.card-location ul li:last-child:after {border-bottom:none;}
+.card-location .verse {font-size:0.75rem; font-style:italic; text-align:center;}
+
+.card-location-item img {margin-bottom:15px;}
+.card-location-item table {margin-bottom:20px;}
+.card-location-item table th {background:#f4f4f4; text-align:left; padding:5px 10px; font-size:0.875rem;}
+.card-location-item table td {border-bottom:1px solid #f4f4f4; padding:0 10px;}
+.card-location-item iframe.gmap {width:100%; height:600px;}
+.card-location-item-sidebar ul {margin-top:5px !important;}
+.card-location-item-sidebar li {padding:2px 0 !important; border-bottom:1px solid #DDD !important; margin:0 !important;}
+.card-location-item-sidebar h4 {margin-bottom:0 !important;}
+
+.card-socialmedia a {font-size:0.875rem;}
+.card-socialmedia ul {padding:0; margin:0 0 20px 0; list-style:none;}
+.card-socialmedia img.store {width:125px; height:auto; margin-bottom:10px;}
+
+.badge div:nth-child(1) {padding:0 5px 0 0;}
+.badge div:nth-child(2) {padding:0 0 0 5px;}
+
+@media (max-width:767px) {
+  .badge {text-align:center;}
+  .badge img {margin-bottom:20px; display:inline-block;}
+  .section-footer-2 {text-align:center;} 
+  .card-event img {width:232.5px; height:197.63px;}  
+}
+
+a.but{margin-bottom: 5px; border: 1px solid #000; border-radius: none; background-color: #fff; color: #4e5b6a;  height: 40px;  text-align: center;}
+
+a.but:hover{background: #caeff9; border-color: #caeff9; color: #000;}
+
+p.teks{margin-top: 5px; font-size: 10.5pt; text-align: center;}
+
+
+
+/*a.but{margin-bottom: 0px; border: 1px solid #303658; border-radius: none; background-color: #303658; color: #fff;  height: 50px;  text-align: center;}
+
+a.but:hover{background: #303658; border-color: #303658; color: #fff;}
+
+p.teks{margin-top: 8px; font-size: 12pt; text-align: center; float: left; margin-left: -50px;}
+
+.yt {width: 20px; float: left; margin-left: 40px; margin-top: -3px;}
+
+@media screen and (max-width: 380px) {
+	p.teks {margin-left: -30px;}
+}
+
+@media screen and (max-width: 340px) {
+	.yt {max-width: 50px; height: 20px; margin-top: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+	.yt {margin-left: 20px;}
+}
+
+@media screen and (max-width: 226px) {
+	p.teks {margin-top: 0px;}
+}*/
